@@ -1,14 +1,13 @@
 #include "types.h"
 #include "user.h"
 
-// Strings
-int main() {
+int
+main(){
 
-    char alphabet[26];
-
-    for(int i = 97; i < (97+26); i++) {
-        alphabet[i-97] = (char)i;
+    if (brokenfn() == 0) {
+        printf(1, "success\n");
     }
-
-    strlen(alphabet);
+    
+    exit();
+    return 0;
 }

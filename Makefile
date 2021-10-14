@@ -178,7 +178,6 @@ UPROGS=\
 	_ex2\
 	_ex3\
 	_ex4\
-	_ex5\
 
 fs.img: mkfs README $(UPROGS)
 	./mkfs fs.img README $(UPROGS)

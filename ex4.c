@@ -2,12 +2,11 @@
 #include "user.h"
 
 int
-main(){
-
-    if (brokenfn() == 0) {
-        printf(1, "success\n");
+main() 
+{
+    if (brokenfn2() == 0){
+        printf(1, "success");
     }
-    
     exit();
     return 0;
 }
