@@ -91,3 +91,9 @@ sys_brokenfn(void)
 {
 	return brokenfn();
 }
+
+int
+sys_brokenfn2(void)
+{
+	return brokenfn2();
+}

@@ -519,3 +519,13 @@ brokenfn(void)
 	return 0;
 
 }
+
+int 
+brokenfn2(void)
+{
+	int pid = fork();
+	kill(pid);
+	
+	release(&ptable.lock);
+	return 0;
+}

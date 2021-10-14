@@ -24,6 +24,7 @@ char *sbrk(int);
 int   sleep(int);
 int   uptime(void);
 int   brokenfn(void);
+int   brokenfn2(void);
 
 // ulib.c
 int   stat(char *, struct stat *);
