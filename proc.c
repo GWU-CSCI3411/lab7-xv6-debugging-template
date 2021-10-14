@@ -506,3 +506,16 @@ procdump(void)
 		cprintf("\n");
 	}
 }
+
+int 
+brokenfn(void)
+{
+	acquire(&ptable.lock);
+
+	int pid = fork();
+	kill(pid);
+
+	release(&ptable.lock);
+	return 0;
+
+}
