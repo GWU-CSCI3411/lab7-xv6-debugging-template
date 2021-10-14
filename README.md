@@ -8,11 +8,11 @@
 
 1.  Introduction
 
-2.  sh.c Walkthrough
+2.  `sh.c` Walkthrough
 
 3.  Good Developer Practices
 
-4.  Review exit() in proc.c
+4.  Review `exit()` in `proc.c`
 
 5.  Good Developer Practices (Continued)
 
@@ -32,7 +32,7 @@
 
 In this lab, we will be discussing some best practices for debugging code that you might be writing for the next few assignments and the final project. Debugging in xv6 is a bit more complicated than regular debugging, so it's important that you know the right way to approach different types of problems. If you debug properly, you'll end up saving yourself a LOT of time.
 
-# 2. sh.c Walkthrough
+# 2. `sh.c` Walkthrough
 
 Work in groups with students near you. Try to answer the following questions. Your instructor will be calling on each group to answer one or more of the questions. There is much more to understand in this file, but this exercise is a good warm-up.
 
